@@ -1,6 +1,6 @@
 @font-face {
   font-family: Pro-display-medium;
-  src: url(SF-Pro-Display-Medium.otf);
+  src: url(chirp_regular.otf);
 }
 
 *{
@@ -245,13 +245,6 @@ textarea{
 
 /*thank you*/
 
-p{
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-  font-family: Pro-display-medium;
-  margin-bottom: 0;
-}
 
 .thank{
   height: 100vh;
@@ -270,6 +263,15 @@ p{
 
 .par{
   font-size: 220%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: Pro-display-medium;
+  margin-bottom: 0;
+}
+
+.inv{
+  font-family: pro-display-medium;
 }
 
 /*#foot{
