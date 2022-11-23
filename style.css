@@ -50,7 +50,7 @@ a{
 }
 @media screen and (max-width: 600px) {
   #go{
-    font-size: 20px;
+    font-size: 16px;
     transition: all 0.3s ease-in-out
   }
 }
@@ -65,6 +65,7 @@ header{
   font-size: small;
   margin-top: 20px;
 }
+
 
 /*.logo{
   margin: 200px auto;
@@ -224,7 +225,7 @@ textarea{
   font-family: pro-display-medium;
 }
 
-.btn{
+.btn2{
   text-align: center;
   font-family: Pro-display-medium;
 }
@@ -270,8 +271,40 @@ textarea{
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 601px) {
+  .par{
+    font-size: 60px;
+    transition: all 0.3s ease-in-out
+  }
+}
+@media screen and (max-width: 600px) {
+  .par{
+    font-size: 40px;
+    transition: all 0.3s ease-in-out
+  }
+}
+
 .inv{
   font-family: pro-display-medium;
+  font-weight: lighter;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  .inv{
+    padding-top: 20px;
+    transition: all 0.3s ease-in-out
+  }
+}
+@media screen and (max-width: 600px) {
+  .inv{
+    padding-top: 0px;
+    transition: all 0.3s ease-in-out
+  }
+}
+
+#break{
+  padding: 5px;
 }
 
 /*#foot{
