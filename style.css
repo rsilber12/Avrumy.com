@@ -3,7 +3,7 @@
   src: url(chirp_regular.otf);
 }
 
-font-face {
+@font-face {
   font-family: chirp-bold;
   src: url(Chirp\ Web\ Bold.ttf);
 }
