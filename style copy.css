@@ -85,6 +85,7 @@ header{
   background-color: rgb(44, 44, 44);
   padding-top: 15px;
   padding-bottom: 10px;
+   z-index: 5;
 }
 
 @media screen and (max-width: 600px) {
