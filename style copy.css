@@ -82,11 +82,11 @@ header{
   width: 100%;
   text-align: center;
   font-size: small;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(17, 17, 17, 0.6);
   padding-top: 15px;
   padding-bottom: 10px;
   z-index: 5;
-  filter: opacity(85%);
+  backdrop-filter: blur(5px);
 }
 
 @media screen and (max-width: 600px) {
