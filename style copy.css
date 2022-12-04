@@ -77,13 +77,21 @@ a{
 }
 
 header{
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
-  font-family: pro-display-medium;
   font-size: small;
-  margin-top: 20px;
+  background-color: rgb(44, 44, 44);
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    padding-bottom: 5px;
+    transition: all 0.3s ease-in-out
+  }
 }
 
 #logo-s{
