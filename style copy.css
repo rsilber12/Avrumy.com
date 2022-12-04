@@ -934,20 +934,15 @@ h1{
     border: none;
     background: none;
     cursor: pointer;
-    filter: opacity(0%);
+    filter: opacity(50%);
 }
 
 @media screen and (max-width: 600px) {
   .close-btn{
-    filter: opacity(50%);
     margin-right: -13px;
-    margin-top: -8px;
+    margin-top: -10px;
     transition: all 0.3s ease-in-out
   }
-}
-
-.close-btn:hover{
-    filter: opacity(50%);
 }
 
 .arrow-btn{
@@ -963,12 +958,11 @@ h1{
 .left-arrow{
     left: 8px;
     transform: translateY(-50%) rotate(180deg);
-    filter: opacity(0%);
+    filter: opacity(50%);
 }
 
 @media screen and (max-width: 600px) {
   .left-arrow{
-    filter: opacity(50%);
     margin-left: -5px;
     transition: all 0.3s ease-in-out
   }
@@ -976,11 +970,10 @@ h1{
 
 .right-arrow{
     right: 8px;
-    filter: opacity(0%);
+    filter: opacity(50%);
 }
 @media screen and (max-width: 600px) {
   .right-arrow{
-    filter: opacity(50%);
     margin-right: -5px;
     transition: all 0.3s ease-in-out
   }
