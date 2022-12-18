@@ -503,7 +503,6 @@ h1{
     height: 100%;
     object-fit: cover;
     transition: 1s;
-    filter: grayscale(100%);
 }
 
 @media screen and (min-width: 601px) {
@@ -521,11 +520,6 @@ h1{
       transition: all 0.3s ease-in-out
     }
   }
-
-.image:hover{
-    filter: none;
-    
-}
 
 @media screen and (min-width: 601px) {
     .image:hover{
