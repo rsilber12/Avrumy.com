@@ -298,6 +298,24 @@ textarea{
   font-family: chirp-bold;
 }
 
+h4{
+  text-align: center;
+  padding-top: 40px;
+  font-family: Pro-display-medium;
+}
+
+@media screen and (min-width: 601px) {
+  h4{
+    transition: all 0.3s ease-in-out
+  }
+}
+@media screen and (max-width: 600px) {
+  h4{
+    font-size: 12px;
+    transition: all 0.3s ease-in-out
+  }
+}
+
 /*thank you*/
 
 
