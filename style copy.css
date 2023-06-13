@@ -482,7 +482,6 @@ h1{
     width: 80%;
     height: 90vh;
     max-width: 1000px;
-   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -558,7 +557,6 @@ h1{
     max-height: 500px;
     /*background: rgba(255, 255, 255, 0.75);
     border: 1px solid black;
-    border-radius: 10px;
     backdrop-filter: blur(10px);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -581,7 +579,6 @@ h1{
       height: 60vh;
       max-height: 300px;
       max-width: 300px;
-    border-radius: 10px;
       transition: all 0.3s ease-in-out
     }
   }
@@ -652,7 +649,6 @@ h1{
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    border-radius: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -781,14 +777,11 @@ h1{
   padding: 0;
   margin: 0;
   overflow: hidden;
-  border-radius: 10px;
 }
 .gallery-image figure img {
   display: block;
- 
   max-width: 100%;
   max-height: 100%;
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -803,7 +796,6 @@ h1{
   .gallery-image figure img{
     width: 75%;
     margin-left: 12%;
-    border-radius: 7px;
     transition: all 0.3s ease-in-out
   }
 }
@@ -834,7 +826,6 @@ h1{
     max-height: 500px;
     /*background: rgba(255, 255, 255, 0.75);
     border: 1px solid black;
-    border-radius: 10px;
     backdrop-filter: blur(10px);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);*/
     display: flex;
@@ -857,7 +848,6 @@ h1{
       height: 60vh;
       max-height: 300px;
       max-width: 300px;
-    border-radius: 10px;
       transition: all 0.3s ease-in-out
     }
   }
