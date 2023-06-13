@@ -221,7 +221,6 @@ h2 a{
 
 #m1{
   border: 1px solid black;
-  border-radius: 5px;
   color: black;
   padding: 18px 18px;
   width: 60%;
@@ -235,7 +234,6 @@ h2 a{
 
 #m2{
   border: 1px solid black;
-  border-radius: 5px;
   color: black;
   padding: 18px 18px;
   width: 60%;
@@ -249,7 +247,6 @@ h2 a{
 
 #m3{
   border: 1px solid black;
-  border-radius: 5px;
   color: black;
   padding: 18px 18px;
   width: 60%;
@@ -263,7 +260,6 @@ h2 a{
 
 textarea{
   border: 1px solid black;
-  border-radius: 5px;
   color: black;
   margin: 15px auto;
   resize: vertical;
@@ -287,7 +283,6 @@ textarea{
 #m{
   background-color: black;
   border: none;
-  border-radius: 5px;
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -501,7 +496,6 @@ h1{
     min-height: 300px;
     margin: 10px;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 @media screen and (min-width: 601px) {
@@ -535,7 +529,6 @@ h1{
       width: 75%;
       height: 75%;
       margin-left: 12%;
-      border-radius: 7px;
       transition: all 0.3s ease-in-out
     }
   }
