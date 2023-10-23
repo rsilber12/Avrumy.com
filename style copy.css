@@ -754,6 +754,16 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
+.galleryvid {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 }
 .gallery-image {
   min-width: 300px;
@@ -770,6 +780,42 @@ h1{
   color: #e4e4e8;
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+.gallery-video {
+  min-width: 418px;
+  max-width: 418px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-video figure {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.gallery-video figure iframe {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 601px) {
+  .gallery-video figure iframe{
+    width: 100%;
+    min-height: 226px;
+    transition: all 0.3s ease-in-out
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery-video figure iframe{
+    width: 75%;
+    min-height: 170px;
+    margin-left: 12%;
+    transition: all 0.3s ease-in-out
+  }
 }
 
 
